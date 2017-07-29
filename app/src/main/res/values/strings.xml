@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application1</string>
+    <string name="action_settings">Settings</string>
+    <string name="testsong_20_sec">http://www.hrupin.com/wp-content/uploads/mp3/testsong_20_sec.mp3</string>
+    <string name="testsong_21_sec">http://www.youtubeinmp3.com/download/get/?i=XOqD2jv8VZHe33PsWF1IHa0mrQgaGbu1&amp;e=96</string>
+    <string name="title_activity_main2">Main2Activity</string>
+</resources>

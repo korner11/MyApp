@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/widget31"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:id="@+id/EditTextSongURL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:ems="10"
+        android:height="100dp"
+        android:lines="3"
+        android:maxLines="3"
+        android:minLines="1">
+
+        <requestFocus />
+
+        <requestFocus />
+
+    </EditText>
+
+    <Button
+        android:id="@+id/ButtonTestPlayPause"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnConvert"
+        android:layout_marginTop="28dp"
+        android:layout_toLeftOf="@+id/btnConvert"
+        android:layout_toStartOf="@+id/btnConvert"
+        android:contentDescription="TestPlayPause"
+        android:onClick="onClick" />
+
+    <SeekBar
+        android:id="@+id/SeekBarTestPlay"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/ButtonTestPlayPause" />
+
+    <TextView
+        android:id="@+id/textSecond"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/SeekBarTestPlay"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"
+        android:text="0" />
+
+    <Button
+        android:id="@+id/btnConvert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/EditTextSongURL"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:text="Convert" />
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/ButtonTestPlayPause"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_toEndOf="@+id/ButtonTestPlayPause"
+        android:layout_toRightOf="@+id/ButtonTestPlayPause"
+        android:text="Stop" />
+
+</RelativeLayout>
